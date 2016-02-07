@@ -1,7 +1,9 @@
 
 'scopeName' : 'source.simplez.asm'
+'name' : 'SIMPLEZ'
 'fileTypes' : [
   'asm'
+  's'
 ]
 'patterns' : [
    {
