@@ -1,2 +1,12 @@
-# simplez-grammar
-Basic syntax highlighting for the Simplez ASM language, an educational processor
+
+# Simplez Architecture
+Simple grammar package for the Simplez Architecture ASM language. Should enable syntax highlighting.
+
+## Install
+To install the package, type
+```apm install simplez-asm```
+
+
+# Credits
+
+Based on hex8-asm package, by Ben Wainwright

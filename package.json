@@ -1,0 +1,23 @@
+{
+  "name": "simplez-asm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obijuan/simplez-grammar.git"
+  },
+  "license": "GPL",
+  "author": {
+    "name": "Juan Gonzalez (Obijuan)",
+    "email": "obijuan.cube@gmail.com"
+  },
+  "version": "0.1.0",
+  "description": "Basic syntax highlighting for the hex8 ASM language used on the University of Bristol Computer Architecture courses",
+  "keywords": [
+    "ASM",
+    "simplez",
+    "grammar",
+    "syntax"
+  ],
+  "engines": {
+    "atom": ">=0.196.0 <2.0.0"
+  }
+}

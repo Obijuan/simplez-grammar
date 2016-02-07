@@ -1,0 +1,41 @@
+
+'scopeName' : 'source.simplez.asm'
+'fileTypes' : [
+  'asm'
+]
+'patterns' : [
+   {
+      'name' : 'keyword.control.simplez'
+      'match' : 'BRB'
+   },
+   {
+      'match' : '(BR|BZ)+ (-{0,1}(?:0x){0,1}[0-9a-fA-F]+)+'
+      'captures' : {
+         1 : { 'name' : 'keyword.control.simplez' }
+         2 : { 'name' : 'constant.numeric.simmplez' }
+      }
+   },
+   {
+      'match' : '(LDAC|LDBC|PFX|LDAP|LDAI|LDBI|STAI|LDAM|LDBM|STAM|DATA)+ (-{0,1}(?:0x){0,1}[0-9a-fA-F]+)+'
+      'captures' : {
+         1 : { 'name' : 'keyword.other.simplez' }
+         2 : { 'name' : 'constant.numeric.simplez' }
+      }
+   },
+
+   {
+      'match' : '(BR|BRZ|BRN|LDAC|LDBC|PFX|LDAP|LDAI|LDBI|STAI|LDAM|LDBM|STAM|DATA)+ (\\w+)+'
+      'captures' : {
+         1 : { 'name' : 'keyword.other.simplez' }
+         2 : { 'name' : 'entity.name.function.simplez' }
+      }
+   },
+   {
+      'name' : 'keyword.operator.simplez'
+      'match' : '(ADD|SUB)'
+   },
+   {
+      'name' : 'comment.line.number-sign.simplez'
+      'match' : ';.*'
+   },
+]
