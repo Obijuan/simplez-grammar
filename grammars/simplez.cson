@@ -5,8 +5,8 @@
 ]
 'patterns' : [
    {
+      'match' : 'BR|BZ'
       'name' : 'keyword.control.simplez'
-      'match' : 'BRB'
    },
    {
       'match' : '(BR|BZ)+ (-{0,1}(?:0x){0,1}[0-9a-fA-F]+)+'
@@ -16,7 +16,11 @@
       }
    },
    {
-      'match' : '(LDAC|LDBC|PFX|LDAP|LDAI|LDBI|STAI|LDAM|LDBM|STAM|DATA)+ (-{0,1}(?:0x){0,1}[0-9a-fA-F]+)+'
+     'match': 'EQU|ORG|DATA|RES'
+     'name': 'entity.directive'
+   }
+   {
+      'match' : '(LDAC|LDBC|PFX|LDAP|LDAI|LDBI|STAI|LDAM|LDBM|STAM|DATA)+ (-{0,1}(?:h\'){0,1}[0-9a-fA-F]+)+'
       'captures' : {
          1 : { 'name' : 'keyword.other.simplez' }
          2 : { 'name' : 'constant.numeric.simplez' }
@@ -24,7 +28,7 @@
    },
 
    {
-      'match' : '(BR|BRZ|BRN|LDAC|LDBC|PFX|LDAP|LDAI|LDBI|STAI|LDAM|LDBM|STAM|DATA)+ (\\w+)+'
+      'match' : '(BR|BRZ|BRN|LDAC|LDBC)+ (\\w+)+'
       'captures' : {
          1 : { 'name' : 'keyword.other.simplez' }
          2 : { 'name' : 'entity.name.function.simplez' }
