@@ -10,7 +10,7 @@
     "email": "obijuan.cube@gmail.com"
   },
   "version": "0.1.0",
-  "description": "Basic syntax highlighting for the hex8 ASM language used on the University of Bristol Computer Architecture courses",
+  "description": "Basic syntax highlighting for the Simplez ASM language",
   "keywords": [
     "ASM",
     "simplez",
@@ -18,6 +18,6 @@
     "syntax"
   ],
   "engines": {
-    "atom": ">=0.196.0 <2.0.0"
+    "atom": ">=0.196.0"
   }
 }
