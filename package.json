@@ -9,7 +9,7 @@
     "name": "Juan Gonzalez (Obijuan)",
     "email": "obijuan.cube@gmail.com"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Basic syntax highlighting for the Simplez ASM language",
   "keywords": [
     "ASM",
