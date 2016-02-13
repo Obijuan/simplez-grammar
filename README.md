@@ -4,7 +4,9 @@ Simple grammar package for the Simplez Architecture ASM language. Should enable 
 
 ## Install
 To install the package, type
-```apm install simplez-asm```
+```apm install simplez-asm```  
+or do it directly from atom: option Edit/Preferencies, In the install
+tab search for "simplez". Install the package "simple-asm"
 
 
 # Credits
