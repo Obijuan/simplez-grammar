@@ -21,6 +21,6 @@ Based on hex8-asm package, by Ben Wainwright
 
 # License
 
-![](https://github.com/Obijuan/simplez-grammar/raw/master/doc/bq-logo-cc-sa-small-150px.png=
+![](https://github.com/Obijuan/simplez-grammar/raw/master/doc/bq-logo-cc-sa-small-150px.png)
 
 Licensed under GPL V2 an [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
